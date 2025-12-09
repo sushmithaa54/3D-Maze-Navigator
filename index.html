@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D Maze Navigator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- HUD -->
+    <div id="hud">
+      <div id="top-left">
+        <div id="time">Time: <span id="timeText">0s</span></div>
+        <div id="level">Level: <span id="levelText">1</span></div>
+        <div id="score">Score: <span id="scoreText">0</span></div>
+      </div>
+
+      <div id="center-message">
+        <span id="message"></span>
+      </div>
+
+      <canvas id="minimap" width="220" height="220"></canvas>
+
+      <div id="instructions">
+        WASD / Arrow keys – move & turn<br />
+        P – auto-path to goal (path finding)<br />
+        Left click – shoot zombie<br />
+        Reach the glowing goal cube to go to the next level.
+      </div>
+    </div>
+
+    <!-- Three.js game -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
