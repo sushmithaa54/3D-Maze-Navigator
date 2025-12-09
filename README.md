@@ -104,6 +104,13 @@ Auto Pathfinding:
 - Add a leaderboard and high-score system
 - Add multiplayer maze mode
 
+## Output Screenshots
+
+### Gameplay Screenshot
+![Gameplay](./img-1.png)
+
+### Minimap View
+![Minimap](./img-2.png)
 
 ## Author
 
